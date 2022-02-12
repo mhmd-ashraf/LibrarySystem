@@ -77,7 +77,6 @@ document.querySelector('#bookForm').addEventListener('submit', (e) => {
 
     if (author === '' || title === '' || numOfPages === '') {
         alert("Please Enter All Data");
-        Lists.clear();
     }
     else {
         const book = new Book(author, title, numOfPages);
